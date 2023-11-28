@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.17.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "mgt-v-2-spfx",
+    "libraryId": "286b071b-f9fa-4ca6-b700-376c662b9b6d",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "mgt-v-2-spfx",
+    "solutionShortDescription": "mgt-v-2-spfx description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

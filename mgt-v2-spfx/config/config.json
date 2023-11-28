@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-mgt-v-2-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloMgtV2/HelloMgtV2WebPart.js",
+          "manifest": "./src/webparts/helloMgtV2/HelloMgtV2WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloMgtV2WebPartStrings": "lib/webparts/helloMgtV2/loc/{locale}.js"
+  }
+}

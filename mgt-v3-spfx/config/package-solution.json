@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "mgt-v-3-spfx-client-side-solution",
+    "id": "20ac5700-f303-4116-81b0-02c301320cb7",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "mgt-v-3-spfx description"
+      },
+      "longDescription": {
+        "default": "mgt-v-3-spfx description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.Read.All"
+      }
+    ],
+    "features": [
+      {
+        "title": "mgt-v-3-spfx Feature",
+        "description": "The feature that activates elements of the mgt-v-3-spfx solution.",
+        "id": "db9023ad-6070-4d10-9b25-d56388de4e2f",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/mgt-v-3-spfx.sppkg"
+  }
+}
